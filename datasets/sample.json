@@ -1,0 +1,20 @@
+[
+  {
+    "question": "How does DocuMind combine vector and keyword search?",
+    "relevant_sources": ["hybrid_search.md"],
+    "relevant_substrings": ["Reciprocal Rank Fusion", "reciprocal"],
+    "expected_points": ["fuses rankings with reciprocal rank fusion"]
+  },
+  {
+    "question": "What does the Cohere cross encoder do during re-ranking?",
+    "relevant_sources": ["reranking.md"],
+    "relevant_substrings": ["cross encoder", "relevance score"],
+    "expected_points": ["reorders candidate passages by relevance"]
+  },
+  {
+    "question": "How are embeddings stored and searched in pgvector?",
+    "relevant_sources": ["pgvector.md"],
+    "relevant_substrings": ["cosine-distance operator", "vector"],
+    "expected_points": ["embeddings stored in a vector column in postgres"]
+  }
+]

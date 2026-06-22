@@ -30,6 +30,8 @@ data/
 *.sqlite3
 qdrant_storage/
 *.pkl
+.documind/
+eval_results/
 
 # Logs
 *.log
